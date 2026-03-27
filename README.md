@@ -33,9 +33,9 @@ A single-file web app to help students manage tasks, track progress, count down 
 
 ## 📱 Live Demo
 
-[👉 Click here to open the app](https://YOUR-USERNAME.github.io/pocket-study-buddy)
+  ## 👉 Click here to open the app (https://abisha71.github.io/pocket-study/)
 
-*(Replace `YOUR-USERNAME` with your actual GitHub username after enabling GitHub Pages)*
+
 
 ## 📄 License
 
