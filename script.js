@@ -43,8 +43,10 @@ function renderTasks() {
 
     div.innerHTML = `
       <div class="flex items-center gap-4 flex-1">
-        <input type="checkbox" ${task.completed ? 'checked' : ''} 
-               onchange="toggleComplete(${index})" class="w-6 h-6 accent-violet-500">
+        <input type="checkbox" 
+          ${task.completed ? 'checked' : ''} 
+          onchange="toggleComplete(${index})"
+          class="w-6 h-6 accent-violet-500">
         <div class="${task.completed ? 'completed' : ''}">
           <strong class="text-white text-lg">${task.name}</strong>
           <span class="text-purple-400 ml-3">(${task.subject})</span>
@@ -52,7 +54,7 @@ function renderTasks() {
         </div>
       </div>
       <button onclick="deleteTask(${index})" 
-              class="text-red-400 hover:text-red-500 px-5 py-2 hover:bg-red-950/50 rounded-xl transition-colors">
+        class="text-red-400 hover:text-red-500 px-5 py-2 hover:bg-red-950/50 rounded-xl transition-colors">
         Delete
       </button>
     `;
@@ -77,6 +79,7 @@ function deleteTask(index) {
 }
 
 let progressChart;
+
 function renderProgress() {
   const completed = tasks.filter(t => t.completed).length;
   const pending = tasks.length - completed;
@@ -101,7 +104,14 @@ function renderProgress() {
       plugins: {
         legend: {
           position: 'bottom',
-          labels: { color: '#c4b5fd', boxWidth: 14, padding: 20, font: { size: 15 } }
+          labels: {
+            color: '#c4b5fd',
+            boxWidth: 14,
+            padding: 20,
+            font: {
+              size: 15
+            }
+          }
         }
       }
     }
@@ -109,6 +119,7 @@ function renderProgress() {
 }
 
 let countdownInterval;
+
 function startCountdown() {
   const dateInput = document.getElementById('countdown-date').value;
   if (!dateInput) return alert("Please select a target date");
@@ -119,6 +130,7 @@ function startCountdown() {
     const now = new Date().getTime();
     const target = new Date(dateInput).getTime();
     const diff = target - now;
+
     const display = document.getElementById('countdown-display');
 
     if (diff < 0) {
