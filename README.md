@@ -1,2 +1,45 @@
-# pocket-study
-A beautiful daily study companion with tasks, progress tracker, countdown &amp; motivation
+# 📚 Pocket Study Buddy
+
+**Your daily study companion** — beautiful, simple, and powerful.
+
+A single-file web app to help students manage tasks, track progress, count down to deadlines, and stay motivated.
+
+![Demo](https://via.placeholder.com/800x400/6b46c1/ffffff?text=Pocket+Study+Buddy)  
+*(Replace with your own screenshot later)*
+
+## ✨ Features
+
+- Add tasks with subject & deadline
+- Mark tasks as completed
+- Beautiful doughnut progress chart
+- Countdown timer to next deadline
+- Daily motivational quotes
+- Fully responsive & modern dark design
+- Data saved automatically in your browser (no login needed)
+
+## 🚀 How to Use
+
+1. Open [`index.html`](index.html) in any browser
+2. Start adding your study tasks!
+3. Everything is saved in your browser using `localStorage`
+
+**No installation. No backend. Works offline.**
+
+## 🛠️ Technologies
+
+- HTML5 + Tailwind CSS
+- Chart.js
+- Vanilla JavaScript
+- localStorage
+
+## 📱 Live Demo
+
+[👉 Click here to open the app](https://YOUR-USERNAME.github.io/pocket-study-buddy)
+
+*(Replace `YOUR-USERNAME` with your actual GitHub username after enabling GitHub Pages)*
+
+## 📄 License
+
+Free to use for everyone ❤️
+
+Made with ❤️ for hardworking students by [Abisha](https://github.com/Abisha71)
