@@ -4,8 +4,7 @@
 
 A single-file web app to help students manage tasks, track progress, count down to deadlines, and stay motivated.
 
-![Demo](https://via.placeholder.com/800x400/6b46c1/ffffff?text=Pocket+Study+Buddy)  
-*(Replace with your own screenshot later)*
+![Pocket Study Buddy Demo](./image/output.jpeg)
 
 ## ✨ Features
 
